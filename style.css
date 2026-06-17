@@ -61,3 +61,10 @@ body {
   background-size: cover;
   height: 100vh;
 }
+.Home .companyname{
+  justify-content: centre;
+  text-align: centre;
+  align-items: centre;
+  display: flex;
+  height: 40vh;
+}
