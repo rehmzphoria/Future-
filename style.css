@@ -56,13 +56,13 @@ body {
   color: #00bcd4; 
 }
 /* Home body container */
-.Home{
+.home{
   background: url("future-homepage.jpg")
   background-size: cover;
   height: 100vh;
   width:100%;
 }
-.Home .companyname{
+.home .companyname{
   justify-content: center;
   text-align: center;
   align-items: center;
