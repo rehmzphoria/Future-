@@ -56,21 +56,20 @@ body {
   color: #00bcd4; 
 }
 /* Home body container */
-/*
-.home{
-  background: url("homepage.jpg")
+.home {
+  background-image: url("homepage.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  height: 100vh;
-  width:100%;
+  min-height: 100vh; 
+  width: 100%;
 }
-*/
-.home{
-  background-color: red;
-}
-.home .companyname{
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+
+.home .companyname {
   display: flex;
-  height: 5vh;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  height: 8vh;
 }
