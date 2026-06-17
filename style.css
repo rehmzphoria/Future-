@@ -1,11 +1,17 @@
-/*Body style */
-body{
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Makes layout sizing much easier to predict */
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* 1. Parent Navbar Container */
 .nav {
-  height: 60px;
+  height: 100px;
   background-color: #222222; /* Valid dark background */
   position: relative;        /* Creates the boundary for absolute children */
   width: 100%;
@@ -14,17 +20,17 @@ body{
 /* 2. Company Name (Left Side) */
 .nav div {
   position: absolute;
-  left: 20px;
+  left: 30px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 20px;
+  font-size: 30px;
   color: white;
 }
 
 /* 3. The List Container (Right Side) */
 .nav ul {
   position: absolute;
-  right: 20px;
+  right: 30px;
   top: 50%;
   transform: translateY(-50%);
   margin: 0;
@@ -35,14 +41,14 @@ body{
 /* 4. Individual List Items */
 .nav ul li {
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 /* 5. Navigation Links */
 .nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 /* Hover effect so you know they are clickable */
@@ -51,7 +57,7 @@ body{
 }
 /* Home body container */
 .Home{
-  background: url(future-homepage.jpg)
+  background: url("future-homepage.jpg")
   background-size: cover;
   height: 100vh;
 }
