@@ -90,11 +90,11 @@ body {
   margin: 0 auto;
 }
 
-#big_name{
+.big_name{
   font-size: 100px;
   font-weight: 400;
 }
-#big_tag{
+.big_tag{
   font-size: 60px;
   font-weight: 250;
 }
