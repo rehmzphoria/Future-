@@ -11,7 +11,7 @@ body {
 
 /* 1. Parent Navbar Container */
 .nav {
-  height: 300px;
+  height: 600px;
   background-color: #222222; /* Valid dark background */
   position: relative;        /* Creates the boundary for absolute children */
   width: 100%;
@@ -23,7 +23,8 @@ body {
   left: 30px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 30px;
+  font-size: 60px;
+  text-decoration: bold;
   color: white;
 }
 
@@ -47,7 +48,7 @@ body {
 /* 5. Navigation Links */
 .nav ul li a {
   color: white;
-  text-decoration: none;
+  font-weight: 500;
   font-size: 24px;
 }
 
@@ -78,9 +79,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 4vh;
+  width: 350px;
+  height: 5vh;
   flex-direction: column;
   text-align: center;
-  font-size: 15px
+  font-size: 22px
+}
+
+#big_name{
+  font-size: 48px;
+  font-weight: 400;
+}
+#big_tag{
+  font-size: 30px;
+  font-weight: 250;
 }
