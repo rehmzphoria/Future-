@@ -11,7 +11,7 @@ body {
 
 /* 1. Parent Navbar Container */
 .nav {
-  height: 100px;
+  height: 300px;
   background-color: #222222; /* Valid dark background */
   position: relative;        /* Creates the boundary for absolute children */
   width: 100%;
