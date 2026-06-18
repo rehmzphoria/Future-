@@ -25,7 +25,7 @@ body {
   left: 30px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 80px;
+  font-size: 45px;
   text-decoration: bold;
   color: white;
 }
@@ -50,8 +50,9 @@ body {
 /* 5. Navigation Links */
 .nav ul li a {
   color: white;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 35px;
+  text-decoration: none;
 }
 
 /* Hover effect so you know they are clickable */
@@ -60,7 +61,7 @@ body {
 }
 /* Home body container */
 .home {
-  background-image: url("homepage.avif"); 
+  background-image: url("homepage.9avif"); 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -83,11 +84,12 @@ body {
   align-items: center;
   width: 60%;
   max-width: 800px;
-  height: 5vh;
+  height: 20vh;
   flex-direction: column;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
   margin: 0 auto;
+  font-weight: 700;
 }
 
 .big_name{
