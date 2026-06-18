@@ -57,7 +57,7 @@ body {
 }
 /* Home body container */
 .home {
-  background-image: url("homepage.jpg"); 
+  background-image: url("homepage.avif"); 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
