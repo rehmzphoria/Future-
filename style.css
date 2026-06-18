@@ -21,11 +21,11 @@ body {
 /* 2. Company Name (Left Side) */
 .nav div {
   position: absolute;
-  left: 30px;
+  left: 20px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 50px;
-  text-decoration: bold;
+  font-size: 52px;
+  font-weight: 800;
   color: white;
 }
 
@@ -83,7 +83,7 @@ body {
   align-items: center;
   width: 60%;
   max-width: 800px;
-  height: 40vh;
+  height: 35vh;
   flex-direction: column;
   text-align: center;
   font-size: 28px;
@@ -93,9 +93,9 @@ body {
 
 .big_name{
   font-size: 100px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .big_tag{
   font-size: 60px;
-  font-weight: 250;
+  font-weight: 300;
 }
