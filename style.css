@@ -83,12 +83,13 @@ body {
   align-items: center;
   width: 60%;
   max-width: 800px;
-  height: 35vh;
+  min-height: 33vh;
   flex-direction: column;
   text-align: center;
   font-size: 28px;
   margin: 0 auto;
   font-weight: 700;
+  overflow: auto;
 }
 
 .big_name{
