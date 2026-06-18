@@ -15,8 +15,7 @@ body {
   background-color: #222222; /* Valid dark background */
   position: relative;        /* Creates the boundary for absolute children */
   width: 100%;
-  border-height: 20px;
-  border-color: black;
+  border: 2px solid black;
 }
 
 /* 2. Company Name (Left Side) */
@@ -25,7 +24,7 @@ body {
   left: 30px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 45px;
+  font-size: 50px;
   text-decoration: bold;
   color: white;
 }
@@ -50,8 +49,8 @@ body {
 /* 5. Navigation Links */
 .nav ul li a {
   color: white;
-  font-weight: 800;
-  font-size: 35px;
+  font-weight: 750;
+  font-size: 30px;
   text-decoration: none;
 }
 
@@ -61,7 +60,7 @@ body {
 }
 /* Home body container */
 .home {
-  background-image: url("homepage.9avif"); 
+  background-image: url("homepage.avif"); 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -84,7 +83,7 @@ body {
   align-items: center;
   width: 60%;
   max-width: 800px;
-  height: 20vh;
+  height: 40vh;
   flex-direction: column;
   text-align: center;
   font-size: 28px;
